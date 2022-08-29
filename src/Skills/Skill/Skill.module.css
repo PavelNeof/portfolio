@@ -1,0 +1,10 @@
+.skill {
+    width: 250px;
+    background-color: lightslategrey;
+}
+
+.icon {
+    height: 60px;
+    width: 60px;
+    background-color: #687786;
+}

@@ -1,0 +1,20 @@
+.block{
+    height: 100vh;
+    background-color: #ffe4ec;
+}
+
+.container{
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.title{
+    background-color: lightslategrey;
+}
+
+.skills{
+    border: 1px solid black;
+    background-color: lightslategrey;
+    width: 100%;
+}
