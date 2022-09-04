@@ -1,24 +1,22 @@
 .block{
     height: 100vh;
-    background-color: #ffe4ec;
+    background-color: #96de8e;
 }
 
 .container{
-
     flex-direction: column;
     justify-content: flex-start;
-
 }
 
 .title{
     background-color: lightslategrey;
 }
 
-.skills{
+.works{
     border: 1px solid black;
-    background-color: lightslategrey;
+    background-color: #e8f3ff;
     width: 100%;
     display:flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
 }
