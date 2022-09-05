@@ -1,0 +1,13 @@
+.inputBlock{
+    height: 30vh;
+    width: 60vh;
+    background-color: #a4a4a4;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.textarea{
+    height: 150px;
+}

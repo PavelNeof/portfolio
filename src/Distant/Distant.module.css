@@ -1,0 +1,17 @@
+.distant{
+    height: 40vh;
+    background-color: #f5ee8e;
+}
+
+
+.container{
+    border: 1px solid black;
+    height: 100%;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}

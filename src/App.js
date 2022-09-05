@@ -4,6 +4,8 @@ import Main from "./Main/Main";
 import React from "react";
 import Skills from "./Skills/Skills";
 import Works from "./Works/Works";
+import Distant from "./Distant/Distant";
+import Contacts from './Contacts/Contacts'
 
 function App() {
     return (
@@ -12,6 +14,8 @@ function App() {
             <Main/>
             <Skills/>
             <Works />
+            <Distant />
+            <Contacts />
         </div>
     );
 }
