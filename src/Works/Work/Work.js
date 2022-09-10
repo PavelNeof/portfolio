@@ -5,7 +5,10 @@ import s from './Work.module.css'
 function Work(props) {
     return (
         <div className={s.work}>
-            <div className={s.picture}>{props.picture}</div>
+            <div className={s.picture}>
+                {props.picture}
+                <button>просмотреть</button>
+            </div>
             <div></div>
             <h3 className={s.title}>{props.title}</h3>
             <span className={s.description}>

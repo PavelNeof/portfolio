@@ -1,4 +1,4 @@
-.work{
+.work {
     width: 500px;
     background-color: lightslategrey;
     display: flex;
@@ -7,14 +7,24 @@
     text-align: center;
 }
 
-.picture{
+.picture {
+    border: 1px solid black;
+    width: 100%;
+    height: 200px;
+    background-color: #a1acfc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.title {
+    margin: 0;
+}
+
+picture {
     border: 1px solid black;
     max-width: 500px;
     max-height: 400px;
 
 }
-
-.title{
-    margin: 0;
-}
-

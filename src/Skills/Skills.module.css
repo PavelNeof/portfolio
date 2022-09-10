@@ -1,10 +1,10 @@
 .block{
-    height: 100vh;
+    min-height: 100vh;
     background-color: #ffe4ec;
 }
 
 .container{
-
+    min-height: 100vh;
     flex-direction: column;
     justify-content: flex-start;
 
@@ -21,4 +21,5 @@
     display:flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    box-sizing: border-box;
 }

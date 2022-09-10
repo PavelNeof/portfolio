@@ -8,14 +8,19 @@ function Works() {
         <div className={s.block}>
             <div className={`${sContainer.container} ${s.container}`}>
                 <h2 className={s.title}>Works</h2>
-                <div className={s.works}>
-                <Work title={'work1'} picture={'picture'}
-                      description={'Lorem ipsum dolor sit amet, consectetur adipiscing elit. ' +
-                          'Nam rhoncus fringilla lacus in venenatis. Nam tristique lectus sed fringilla scelerisque. '}/>
-                <Work title={'work2'} picture={'picture'}
-                      description={'Lorem ipsum dolor sit amet, consectetur adipiscing elit. ' +
-                          'Nam rhoncus fringilla lacus in venenatis. Nam tristique lectus sed fringilla scelerisque. '}/>
-            </div>
+
+                    <div className={s.works}>
+                        <Work title={'work1'} picture={'picture'}
+                              description={'Lorem ipsum dolor sit amet, consectetur adipiscing elit. ' +
+                                  'Nam rhoncus fringilla lacus in venenatis. Nam tristique lectus sed fringilla scelerisque. '}/>
+                        <Work title={'work2'} picture={'picture'}
+                              description={'Lorem ipsum dolor sit amet, consectetur adipiscing elit. ' +
+                                  'Nam rhoncus fringilla lacus in venenatis. Nam tristique lectus sed fringilla scelerisque. '}/>
+                        <Work title={'work3'} picture={'picture'}
+                              description={'Lorem ipsum dolor sit amet, consectetur adipiscing elit. ' +
+                                  'Nam rhoncus fringilla lacus in venenatis. Nam tristique lectus sed fringilla scelerisque. '}/>
+                    </div>
+
             </div>
         </div>
     );

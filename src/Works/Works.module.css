@@ -1,16 +1,19 @@
 .block{
-    height: 100vh;
+    min-height: 100vh;
     background-color: #96de8e;
 }
 
 .container{
+    min-height: 100vh;
     flex-direction: column;
     justify-content: flex-start;
+
 }
 
 .title{
     background-color: lightslategrey;
 }
+
 
 .works{
     border: 1px solid black;
@@ -18,5 +21,6 @@
     width: 100%;
     display:flex;
     justify-content: space-around;
+
     flex-wrap: wrap;
 }
