@@ -5,7 +5,7 @@ import s from './Work.module.css'
 function Work(props) {
     return (
         <div className={s.work}>
-            <div className={s.picture}>
+            <div style={props.style} className={s.picture}>
                 {props.picture}
                 <button>просмотреть</button>
             </div>

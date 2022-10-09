@@ -1,15 +1,17 @@
 import React from "react";
 import s from './Contacts.module.css'
 import Form from "./InputBlock/Form";
+import Button from "../Common/Button/Button";
 
 
 function Contacts() {
     return (
         <div className={s.contacts}>
             <div className={s.container}>
-                <h3>Контакты</h3>
+                <h3 className={"title"}>Contacts</h3>
                 <Form/>
-                <button>Отправить</button>
+                {/*<button>Отправить</button>*/}
+                <Button title={'Отправить'}/>
             </div>
         </div>
     );

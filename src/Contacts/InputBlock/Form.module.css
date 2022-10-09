@@ -20,7 +20,7 @@
 
 .input{
     width: 100%;
-    background-color: transparent;
+    background-color: #edefef;
     font-style: italic;
     border-radius: 0;
     font-size: 13px;
@@ -44,7 +44,7 @@
     border: 1px solid rgba(0,0,0,.2);
     height: 150px;
     resize: none;
-    background-color: transparent;
+    background-color: #edefef;
 
     border-radius: 0;
     font-size: 13px;

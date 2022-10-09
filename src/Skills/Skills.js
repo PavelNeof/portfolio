@@ -7,7 +7,7 @@ function Skills() {
     return (
         <div className={s.block}>
             <div className={`${s.container}`}>
-                <h2 className={s.title}>Skills</h2>
+                <h2 className={"title"}>Skills</h2>
                 <div className={s.skills}>
                     <Skill title={'JS'} description={'Lorem ipsum dolor sit amet, consectetur adipiscing elit. ' +
                         'Nam rhoncus fringilla lacus in venenatis. Nam tristique lectus sed fringilla scelerisque. ' +

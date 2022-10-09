@@ -8,7 +8,7 @@ function Footer() {
         <div className={s.footer}>
             <div className={`${sContainer.container} ${s.container}`}>
                 <div className={s.flex}>
-                <h1 className={s.h1}>Неофитов Павел</h1>
+                <h2 className={s.h1}>Неофитов Павел</h2>
                 <div className={s.square}>
                 <Square/>
                 <Square/>
