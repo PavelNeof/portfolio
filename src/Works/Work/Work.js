@@ -1,5 +1,5 @@
 import React from "react";
-import s from './Work.module.css'
+import s from './Work.module.scss'
 
 
 function Work(props) {
@@ -7,7 +7,7 @@ function Work(props) {
         <div className={s.work}>
             <div style={props.style} className={s.picture}>
                 {props.picture}
-                <button>просмотреть</button>
+                <button className={s.button}>просмотреть</button>
             </div>
             <div></div>
             <h3 className={s.title}>{props.title}</h3>

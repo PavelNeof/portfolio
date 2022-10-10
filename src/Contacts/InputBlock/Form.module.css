@@ -17,7 +17,7 @@
 
 .input{
     width: 100%;
-    background-color: #edefef;
+    background-color: #f1f1f1;
     font-style: italic;
     border-radius: 0;
     font-size: 13px;
@@ -40,8 +40,8 @@
     width: 100%;
     border: 1px solid rgba(0,0,0,.2);
     height: 150px;
-    resize: none;
-    background-color: #edefef;
+
+    background-color: #f1f1f1;
 
     border-radius: 0;
     font-size: 13px;
