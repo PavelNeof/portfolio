@@ -7,7 +7,7 @@ function Distant() {
     return (
         <div className={s.distant}>
         <div className={s.container}>
-            <h2 className={"title"}>Рассматриваю варианты удалённой работы</h2>
+            <h2 className={s.title}>Рассматриваю варианты удалённой работы</h2>
           {/*<button>Нанять меня</button>*/}
             <Button title={'Нанять меня'}/>
         </div>

@@ -1,12 +1,9 @@
 .inputBlock{
     height: 30vh;
-    width: 50%;
-    background-color: #a4a4a4;
-    border: 1px solid black;
+
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-
     width: 100%;
     float: left;
     background: transparent;
@@ -59,4 +56,11 @@
     border: 1px solid #676767;
     transition: all .3s ease;
 
+}
+
+
+@media (min-width:  1000px) {
+    .inputBlock{
+        width: 90%
+    }
 }
