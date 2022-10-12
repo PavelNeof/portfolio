@@ -16,6 +16,7 @@ function Skills() {
                     <Skill title={'Git'} description={'GitHab, work in a team, git merge'}/>
                     <Skill title={'CSS'} description={'adaptive layout, SASS, BEM, Bootstrap, Material UI'}/>
                     <Skill title={'Storybook'} description={''}/>
+                    <Skill title={'Rest Api'} description={'Axios, Fetch, Postman'}/>
                     <Skill title={'Formik'} description={''}/>
                     <Skill title={'UNIT-TESTING'} description={''}/>
                     {/*<Skill title={'React'} description={'Lorem ipsum dolor sit amet, consectetur adipiscing elit. ' +
