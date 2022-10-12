@@ -7,6 +7,7 @@
     margin: 0;
     -webkit-font-smoothing: antialiased;
     background-color: #f6f6f6;
+    /*background: url(https://html5book.ru/wp-content/uploads/2015/07/background39.png)*/
 }
 
 .title {
@@ -16,3 +17,4 @@
     font-size: 36px;
     font-family: 'Libre Baskerville', serif;
 }
+

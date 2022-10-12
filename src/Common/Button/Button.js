@@ -2,10 +2,8 @@ import s from './Button.module.css'
 
 function Button(props) {
     return (
-        <div className={s.button}>
-            <button>
-                {props.title}
-            </button>
+        <div >
+            <a href="" className={s.borderButton}>{props.title}</a>
         </div>
     );
 }
