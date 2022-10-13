@@ -33,7 +33,7 @@ function Footer() {
                 <Square style={Vk}/>
                 <Square style={Codewars}/>
                 </div>
-                    <div className={s.lastLine}>Все права защищены</div>
+                    <div className={s.lastLine}>© All rights reserved</div>
                 </div>
 
             </div>
