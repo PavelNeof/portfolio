@@ -9,15 +9,22 @@
     padding: 20px 30px;
     margin: 10px 20px;
     position: relative;
-    color: #000000;
+    color: whitesmoke;
     border: 1px solid rgba(73, 73, 73, 0.4);
-    background: #8f897d;
+    background: #1c222a;
     font-weight: 300;
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
+    transition: all 0.4s ease-in-out 0s;
 }
+
+.borderButton:hover {
+    color: #1c222a;
+}
+
 .borderButton:before, .borderButton:after {
+
     content: "";
     position: absolute;
     width: 0;
@@ -28,15 +35,15 @@
 .borderButton:before {
     bottom: 0;
     left: 0;
-    border-left: 1px solid #000000;
-    border-top: 1px solid #000000;
+    border-left: 1px solid #1c222a;
+    border-top: 1px solid #1c222a;
     transition: 0s ease opacity .8s, .2s ease width .4s, .2s ease height .6s;
 }
 .borderButton:after {
     top: 0;
     right: 0;
-    border-right: 1px solid #000000;
-    border-bottom: 1px solid #000000;
+    border-right: 1px solid #1c222a;
+    border-bottom: 1px solid #1c222a;
     transition: 0s ease opacity .4s, .2s ease width, .2s ease height .2s;
 }
 .borderButton:hover:before,

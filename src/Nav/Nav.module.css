@@ -23,7 +23,7 @@
     width: 0;
     height: 2px; /* Высота линии */
     background-color: #d5921a; /* Цвет подчеркивания при исчезании линии*/
-    transition: all 0.4s ease-in-out 0s;; /* Время эффекта */
+    transition: all 0.4s ease-in-out 0s; /* Время эффекта */
 
 }
 

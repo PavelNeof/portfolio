@@ -5,12 +5,24 @@
     align-items: center;
     text-align: center;
     margin: 30px 20px;
+    box-shadow: 0 15px 40px rgb(0 0 0 / 50%);
+    background: #edb021;
+    border-radius: 5px;
+}
+
+.skill:hover {
+
 }
 
 .icon {
-    height: 60px;
-    width: 60px;
     background-color: #687786;
+
+    background-repeat: no-repeat;
+    height: 70px;
+    margin-bottom: 5px;
+    opacity: .2;
+    transition: .5s;
+    width: 70px;
 }
 
 .title {
