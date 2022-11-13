@@ -19,7 +19,6 @@
 }
 
 *, *:after, *:before {
-
     box-sizing: border-box;
 }
 .clearfix:before, .clearfix:after {

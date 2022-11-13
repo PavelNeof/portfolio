@@ -1,7 +1,10 @@
 .skill {
+    position: relative;
     width: 250px;
+    height: 250px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     text-align: center;
     margin: 30px 20px;
@@ -10,29 +13,68 @@
     border-radius: 5px;
 }
 
-.skill:hover {
-
-}
-
 .icon {
     background-color: #687786;
-
     background-repeat: no-repeat;
-    height: 70px;
     margin-bottom: 5px;
     opacity: .2;
     transition: .5s;
-    width: 70px;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+
+
+.box{
+    position: absolute;
+    display: block;
+    text-decoration: none;
+    padding: 15px;
+    color: #fff;
+    background: #1c222a;
+    border-radius: 5px;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+
+    transition: all 0.4s ease-in-out;
+}
+.unhoveredBox{
+    opacity: 0;
+    transition: all 0.4s ease-in-out;
+
+}
+.hoveredBox{
+    opacity: 1;
+
+    transition: all 0.4s ease-in-out;
+}
+
+box:hover {
+    background: #454545;
+    color: #fff;
+    display: block;
+}
+
+.inBox{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+
+}
 .title {
     padding-top:10px;
     margin: 0;
-    color:#222;
+    color:#fff;
 }
 
 .description {
     font-weight: 400;
     font-size: 13px;
-    color:#333;
+    color:#fff;
 }
+

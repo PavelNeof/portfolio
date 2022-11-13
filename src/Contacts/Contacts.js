@@ -10,7 +10,6 @@ function Contacts() {
             <div className={s.container}>
                 <h3 className={"title"}>Contacts</h3>
                 <Form/>
-                {/*<button>Отправить</button>*/}
                 <Button title={'Отправить'}/>
             </div>
         </div>
