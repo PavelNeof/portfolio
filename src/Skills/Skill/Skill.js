@@ -15,7 +15,7 @@ function Skill(props) {
         <div onMouseEnter={onMouseEnter}
              onMouseLeave={onMouseLeave} className={s.skill}>
 
-            <div  className={s.icon}></div>
+            <div  className={s.icon}><img src={props.img}/> </div>
             <div className={`${s.box} ${show ? s.hoveredBox : s.unhoveredBox}`}>
                 <div className={s.inBox}>
                 <h3 className={s.title}>{props.title}</h3>
