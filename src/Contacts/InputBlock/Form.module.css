@@ -30,9 +30,15 @@
     padding: 10px 15px!important;
     height: 44px;
     vertical-align: middle;
-    border: 1px solid #676767;
+    border: 1px solid black;
     transition: all .3s ease;
 
+}
+.input:hover {
+    border: 1px solid #dcdcdc;
+}
+.input:focus{
+    border: 1px solid #005aff;
 }
 
 .textarea{
@@ -53,11 +59,14 @@
     line-height: 1.4;
     padding: 10px!important;
     width: 100%;
-    border: 1px solid #676767;
+    border: 1px solid red;
     transition: all .3s ease;
 
 }
 
+.textarea:focus{
+    border: 1px solid #005aff;
+}
 
 @media (min-width:  1000px) {
     .inputBlock{

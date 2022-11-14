@@ -9,12 +9,12 @@ function Work(props) {
                 {props.picture}
                 <button className={s.button}>просмотреть</button>
             </div>
-            <div></div>
+            <div className={s.box}>
             <h3 className={s.title}>{props.title}</h3>
             <span className={s.description}>
                 {props.description}
             </span>
-
+            </div>
         </div>
     );
 }

@@ -44,6 +44,8 @@
     transition: all 0.4s ease-in-out;
     top: 0;
     left: 0;
+    height: 270px;
+    width: 270px;
 
 }
 .hoveredBox{
@@ -57,6 +59,8 @@ box:hover {
     background: #454545;
     color: #fff;
     display: block;
+    height: 300px;
+    width: 300px;
 }
 
 .inBox{
