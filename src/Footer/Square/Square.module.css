@@ -1,7 +1,8 @@
 .square {
-
-    height: 60px;
-    width: 60px;
+    height: 80px;
+    width: 80px;
+    display: flex;
+    justify-content: center;
 }
 
 .img {
@@ -9,4 +10,26 @@
     background-position: center;
     width: 50px;
     height: 50px;
+}
+
+.back {
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 95%;
+    box-shadow: 0 0 15px 15px #dcdcdc inset;
+}
+.back:hover {
+    background-color: #f9f4e6;
+    box-shadow: 0 0 15px 15px #dcdcdc inset;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 95%;
+    transition: all 0.4s ease-in-out;
+
 }

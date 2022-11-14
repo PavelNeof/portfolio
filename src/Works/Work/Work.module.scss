@@ -8,6 +8,7 @@
   z-index: 10;
   position: relative;
     bottom:0;
+  box-shadow: 0 15px 40px #0a0a0a;
   .picture {
     border: 1px solid #737373;
     width: 100%;
@@ -24,6 +25,8 @@
     .button {
       position: relative;
       z-index: 1;
+      //display: none;
+      opacity: 0;
     }
   }
 
@@ -35,49 +38,42 @@
     left: 0;
     bottom: 0;
     right: 0;
-    opacity: 0.4;
+    opacity: 0;
   }
-
   .title {
     padding-top: 10px;
     margin: 0;
     color: #1c222a;
 
   }
-
   .description {
     font-weight: 400;
     font-size: 13px;
     color: #1c222a;
-
   }
-}
-
-.work .box {
-  //display: none;
-  bottom:0;
-  position: absolute;
-  z-index: -1;
-  background-color: #edb021;
+  .box {
+    bottom:0;
+    position: absolute;
+    z-index: -1;
+    background-color: #edb021;
+  }
 }
 
 .work:hover{
     bottom:50px;
-  z-index: 1;
+    z-index: 1;
     transition: all 0.4s ease-in-out;
-}
+    border-radius: 10px 10px 0 0;
 
-.work:hover .box {
-  bottom: -75px;
-  display: block;
-  z-index: -1;
-  //top:300px;
-  transition: all 0.4s ease-in-out;
-  background-color: #edb021;
-  border-radius: 0 0 10px 10px;
-}
-
-.work:hover .picture::before {
+  .box {
+    bottom: -75px;
+    display: block;
+    z-index: -1;
+    transition: all 0.4s ease-in-out;
+    background-color: #edb021;
+    border-radius: 0 0 10px 10px;
+  }
+  .picture::before {
     position: absolute;
     content: '';
     background-color: black;
@@ -87,4 +83,11 @@
     right: 0;
     opacity: 0.7;
     transition: all 0.4s ease-in-out;
+  }
+  .picture .button{
+    display: block;
+    opacity: 1;
+    transition: all 0.4s ease-in-out;
+  }
 }
+

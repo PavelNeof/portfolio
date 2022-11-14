@@ -7,7 +7,7 @@ function Form() {
         <div className={s.inputBlock}>
             <input placeholder={'input'} className={s.input}/>
             <input placeholder={'input'} className={s.input}/>
-            <textarea className={s.textarea} placeholder={'textarea'} className={s.textarea}/>
+            <textarea placeholder={'textarea'} className={s.textarea}/>
         </div>
     );
 }

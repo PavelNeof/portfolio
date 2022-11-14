@@ -6,7 +6,9 @@ export function Square(props) {
     return (
         <div className={s.square}>
             <a href="#">
+                <div className={s.back}>
                 <svg className={s.img} style={props.style}></svg>
+                </div>
             </a>
         </div>
     );

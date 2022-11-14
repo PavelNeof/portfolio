@@ -6,7 +6,7 @@ function Work(props) {
     return (
         <div className={s.work}>
             <div style={props.style} className={s.picture}>
-                {props.picture}
+
                 <button className={s.button}>просмотреть</button>
             </div>
             <div className={s.box}>
