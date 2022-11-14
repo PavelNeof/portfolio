@@ -28,7 +28,7 @@ function Footer() {
                 <div className={s.flex}>
                 <h2 className={s.h1}>Neofitov Pavel</h2>
                 <div className={s.square}>
-                <Square style={Github}/>
+                <Square style={Github} href={'https://github.com/PavelNeof'}/>
                 <Square style={Telegram}/>
                 <Square style={Vk}/>
                 <Square style={Codewars}/>

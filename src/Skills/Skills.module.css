@@ -1,7 +1,5 @@
 .block{
     min-height: 100vh;
-
-
 }
 
 .container{
@@ -14,7 +12,6 @@
     min-height: 100vh;
     flex-direction: column;
     justify-content: flex-start;
-
 }
 
 .title{
@@ -28,7 +25,6 @@
 .skills{
     height: 100%;
     margin: auto;
-
     width: 100%;
     display:flex;
     justify-content: space-around;
@@ -41,6 +37,7 @@
     .skills{
         justify-content: center;
     }
+
 }
 
 @media (min-width:  1500px) {
