@@ -37,7 +37,12 @@
     .skills{
         justify-content: center;
     }
+}
 
+@media (max-width:  720px) {
+    .skills{
+        justify-content: center;
+    }
 }
 
 @media (min-width:  1500px) {

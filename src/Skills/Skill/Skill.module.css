@@ -81,12 +81,33 @@ box:hover {
     color:#fff;
 }
 
-@media (max-width:  700px) {
-    .unhoveredBox{
+@media (max-width:  730px) {
+    .unhoveredBox {
         left: -23px;
+        height: 110px;
+        width: 110px;
     }
 
-    .hoveredBox{
-        left: -15px;
+    .hoveredBox {
+        left: -20px;
+        top: 10px;
+    }
+
+    .skill {
+        position: relative;
+        width: 115px;
+        height: 115px;
+        margin: 20px 10px;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .box {
+        z-index: 10;
+        width: 110%;
+        height: 110%;
+        border-radius: 10px;
+
     }
 }
