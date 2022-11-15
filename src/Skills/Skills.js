@@ -11,6 +11,7 @@ import css from "../assets/image/skills/css.png";
 import storybook from "../assets/image/skills/storybook.png";
 import restapi from "../assets/image/skills/api.png";
 import unitest from "../assets/image/skills/unit-test.png";
+import Fade from 'react-reveal/Fade';
 
 
 function Skills() {
@@ -20,15 +21,34 @@ function Skills() {
             <div className={`${s.container}`}>
                 <h2 className={"title"}>Skills</h2>
                 <div className={s.skills}>
+                    <Fade bottom>
                     <Skill title={'JavaScript'} img={js} description={'functional components, class components'}/>
+
+
                     <Skill title={'TypeScript'} img={ts} description={'functional components, class components'} />
+
+
                     <Skill title={'React'} img={react} description={'Redux, Route, Formik'}/>
+
+
                     <Skill title={'Redux'} img={redux} description={'Redux-Thunk, reducers'}/>
+
+
                     <Skill title={'Git'} img={git} description={'GitHab, work in a team, git merge'}/>
+
+
                     <Skill title={'CSS'} img={css} description={'adaptive layout, SASS, BEM, Tailwind CSS, Material UI'}/>
+
+
                     <Skill title={'Storybook'} img={storybook} description={'Create component'}/>
+
+
                     <Skill title={'Rest Api'} img={restapi} description={'Axios, Postman'}/>
+
+
                     <Skill title={'Unit testing'} img={unitest} description={'Unit testing component'}/>
+                        </Fade>
+
                     {/*<Skill title={'React'} description={'Lorem ipsum dolor sit amet, consectetur adipiscing elit. ' +
                         'Nam rhoncus fringilla lacus in venenatis. Nam tristique lectus sed fringilla scelerisque. ' +
                         'Pellentesque iaculis accumsan felis. Mauris suscipit dui quis sem venenatis, quis ultricies tellus sagittis. ' +

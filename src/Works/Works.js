@@ -7,8 +7,7 @@ import LearnCards from "./../assets/image/works/soc.jpg"
 import TodoImage from "./../assets/image/to-do-list.jpg"
 import CounterImage from "./../assets/image/works/counter.jpg"
 import Homeworks from "./../assets/image/works/homeworks.jpg"
-
-
+import Zoom from 'react-reveal/Zoom';
 
 
 function Works() {
@@ -29,30 +28,36 @@ function Works() {
     };
 
     return (
+
         <div className={s.block}>
             <div className={`${sContainer.container} ${s.container}`}>
                 <h2 className={"title"}>Works</h2>
+                <Zoom>
+                    <div className={s.works}>
+                        <Work style={socialNetwork} title={'Social network'} picture={'picture'}
+                              description={'Lorem ipsum dolor sit amet, consectetur adipiscing elit. ' +
+                                  'Nam rhoncus fringilla lacus in venenatis. Nam tristique lectus sed fringilla scelerisque. '}/>
 
-                <div className={s.works}>
-                    <Work style={socialNetwork} title={'Social network'} picture={'picture'}
-                          description={'Lorem ipsum dolor sit amet, consectetur adipiscing elit. ' +
-                              'Nam rhoncus fringilla lacus in venenatis. Nam tristique lectus sed fringilla scelerisque. '}/>
-                    <Work style={learnCards} title={'Learn Cards'} picture={'picture'}
-                          description={'Lorem ipsum dolor sit amet, consectetur adipiscing elit. ' +
-                              'Nam rhoncus fringilla lacus in venenatis. Nam tristique lectus sed fringilla scelerisque. '}/>
-                    <Work style={Todolist} title={'Todolist'} picture={'picture'}
-                          description={'Lorem ipsum dolor sit amet, consectetur adipiscing elit. ' +
-                              'Nam rhoncus fringilla lacus in venenatis. Nam tristique lectus sed fringilla scelerisque. '}/>
-                    <Work style={homeworks} title={'Homeworks'} picture={'picture'}
-                          description={'Lorem ipsum dolor sit amet, consectetur adipiscing elit. ' +
-                              'Nam rhoncus fringilla lacus in venenatis. Nam tristique lectus sed fringilla scelerisque. '}/>
-                    <Work style={counter} title={'Counter'} picture={'picture'}
-                          description={'Lorem ipsum dolor sit amet, consectetur adipiscing elit. ' +
-                              'Nam rhoncus fringilla lacus in venenatis. Nam tristique lectus sed fringilla scelerisque. '}/>
-                </div>
+                        <Work style={learnCards} title={'Learn Cards'} picture={'picture'}
+                              description={'Lorem ipsum dolor sit amet, consectetur adipiscing elit. ' +
+                                  'Nam rhoncus fringilla lacus in venenatis. Nam tristique lectus sed fringilla scelerisque. '}/>
 
+                        <Work style={Todolist} title={'Todolist'} picture={'picture'}
+                              description={'Lorem ipsum dolor sit amet, consectetur adipiscing elit. ' +
+                                  'Nam rhoncus fringilla lacus in venenatis. Nam tristique lectus sed fringilla scelerisque. '}/>
+
+                        <Work style={homeworks} title={'Homeworks'} picture={'picture'}
+                              description={'Lorem ipsum dolor sit amet, consectetur adipiscing elit. ' +
+                                  'Nam rhoncus fringilla lacus in venenatis. Nam tristique lectus sed fringilla scelerisque. '}/>
+
+                        <Work style={counter} title={'Counter'} picture={'picture'}
+                              description={'Lorem ipsum dolor sit amet, consectetur adipiscing elit. ' +
+                                  'Nam rhoncus fringilla lacus in venenatis. Nam tristique lectus sed fringilla scelerisque. '}/>
+                    </div>
+                </Zoom>
             </div>
         </div>
+
     );
 }
 

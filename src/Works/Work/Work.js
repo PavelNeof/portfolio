@@ -5,6 +5,7 @@ import s from './Work.module.scss'
 function Work(props) {
     return (
         <div className={s.work}>
+
             <div style={props.style} className={s.picture}>
                 <button className={s.button} onClick={() => {alert('click')}}>view the project</button>
             </div>
@@ -14,6 +15,7 @@ function Work(props) {
                 {props.description}
             </span>
             </div>
+
         </div>
     );
 }
