@@ -1,10 +1,13 @@
 .header {
     height: 80px;
     background-color: #1c222a;
-
     /*background: linear-gradient(to bottom right, #4b4b4b, #606060);*/
-
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    position: fixed;
+    top:0;
+    z-index: 999;
+    width: 100%;
+
 }

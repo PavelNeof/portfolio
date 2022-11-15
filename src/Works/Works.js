@@ -29,9 +29,9 @@ function Works() {
 
     return (
 
-        <div className={s.block}>
+        <div id={'works'} className={s.block}>
             <div className={`${sContainer.container} ${s.container}`}>
-                <h2 className={"title"}>Works</h2>
+                <h2 className={'title'}>Works</h2>
                 <Zoom>
                     <div className={s.works}>
                       {/*  <div className={s.zoom}>*/}

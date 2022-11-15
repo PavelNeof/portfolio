@@ -5,6 +5,9 @@
     padding-right: 40px;
 }
 
+.nav .active{
+    color:#edb021;
+}
 
 .linkUnderlineMenu {
     color: #f9f4e6; /* Цвет обычной ссылки */

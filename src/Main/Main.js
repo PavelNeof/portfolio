@@ -5,7 +5,7 @@ import Zoom from 'react-reveal/Zoom';
 
 function Main() {
     return (
-        <div className={s.mainBlock}>
+        <div id={'main'} className={s.mainBlock}>
             <div className={sContainer.container}>
                 <Zoom>
                 <div className={s.text}>
