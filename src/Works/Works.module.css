@@ -23,3 +23,11 @@
 
 }
 
+
+
+
+@media (max-width:  730px) {
+    .zoom {
+        transform: scale(0.7, 1);
+    }
+}

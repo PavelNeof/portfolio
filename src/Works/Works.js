@@ -34,10 +34,11 @@ function Works() {
                 <h2 className={"title"}>Works</h2>
                 <Zoom>
                     <div className={s.works}>
+                      {/*  <div className={s.zoom}>*/}
                         <Work style={socialNetwork} title={'Social network'} picture={'picture'}
                               description={'Lorem ipsum dolor sit amet, consectetur adipiscing elit. ' +
                                   'Nam rhoncus fringilla lacus in venenatis. Nam tristique lectus sed fringilla scelerisque. '}/>
-
+                       {/* </div>*/}
                         <Work style={learnCards} title={'Learn Cards'} picture={'picture'}
                               description={'Lorem ipsum dolor sit amet, consectetur adipiscing elit. ' +
                                   'Nam rhoncus fringilla lacus in venenatis. Nam tristique lectus sed fringilla scelerisque. '}/>

@@ -7,6 +7,8 @@ import telegram from "../assets/image/telegram.png";
 import vk from "../assets/image/vk.png";
 import codewars from "../assets/image/codewars.png";
 import Zoom from 'react-reveal/Zoom';
+import ReactTypingEffect from 'react-typing-effect';
+
 
 function Footer() {
     const Github = {
@@ -27,7 +29,9 @@ function Footer() {
             <footer className={`${sContainer.container} ${s.container}`}>
                 <div className={s.flex}>
                     <Zoom>
+
                 <h2 className={s.h1}>Neofitov Pavel</h2>
+
                     </Zoom>
                 <Zoom>
                 <div className={s.square}>
@@ -37,7 +41,9 @@ function Footer() {
                 <Square style={Codewars}/>
                 </div>
                 </Zoom>
-                    <div className={s.lastLine}>© All rights reserved</div>
+                    <div className={s.lastLine}><ReactTypingEffect
+                        text={'© All rights reserved'}
+                    /></div>
                 </div>
 
             </footer>
