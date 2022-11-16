@@ -34,14 +34,18 @@ function Works() {
                 <h2 className={'title'}>Works</h2>
                 <Zoom>
                     <div className={s.works}>
-                      {/*  <div className={s.zoom}>*/}
+                        {/*<div className={s.zoom}>*/}
+                        {/*    <Zoom>*/}
                         <Work style={socialNetwork} title={'Social network'} picture={'picture'}
                               description={'Lorem ipsum dolor sit amet, consectetur adipiscing elit. ' +
-                                  'Nam rhoncus fringilla lacus in venenatis. Nam tristique lectus sed fringilla scelerisque. '}/>
-                       {/* </div>*/}
+                                  'Nam rhoncus fringilla lacus in venenatis. Nam tristique lectus sed fringilla scelerisque. '}
+                              href={'https://samurai-way.vercel.app/'}/>
+                        {/*    </Zoom>*/}
+                        {/*</div>*/}
                         <Work style={learnCards} title={'Learn Cards'} picture={'picture'}
                               description={'Lorem ipsum dolor sit amet, consectetur adipiscing elit. ' +
-                                  'Nam rhoncus fringilla lacus in venenatis. Nam tristique lectus sed fringilla scelerisque. '}/>
+                                  'Nam rhoncus fringilla lacus in venenatis. Nam tristique lectus sed fringilla scelerisque. '}
+                              href={'https://friday-project.vercel.app/#/login'}/>
 
                         <Work style={Todolist} title={'Todolist'} picture={'picture'}
                               description={'Lorem ipsum dolor sit amet, consectetur adipiscing elit. ' +
@@ -49,7 +53,8 @@ function Works() {
 
                         <Work style={homeworks} title={'Homeworks'} picture={'picture'}
                               description={'Lorem ipsum dolor sit amet, consectetur adipiscing elit. ' +
-                                  'Nam rhoncus fringilla lacus in venenatis. Nam tristique lectus sed fringilla scelerisque. '}/>
+                                  'Nam rhoncus fringilla lacus in venenatis. Nam tristique lectus sed fringilla scelerisque. '}
+                              href={'https://pavelneof.github.io/fromignat/#/junior'}/>
 
                         <Work style={counter} title={'Counter'} picture={'picture'}
                               description={'Lorem ipsum dolor sit amet, consectetur adipiscing elit. ' +

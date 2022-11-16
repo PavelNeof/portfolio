@@ -7,7 +7,7 @@ function Work(props) {
         <div className={s.work}>
 
             <div style={props.style} className={s.picture}>
-                <button className={s.button} onClick={() => {alert('click')}}>view the project</button>
+                <a className={s.button} href={props.href} target="_blank">view the project</a>
             </div>
             <div className={s.box}>
                 <h3 className={s.title}>{props.title}</h3>

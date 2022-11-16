@@ -30,20 +30,23 @@ function Footer() {
                 <div className={s.flex}>
                     <Zoom>
 
-                <h2 className={s.h1}>Neofitov Pavel</h2>
+                        <h2 className={s.h1}>Neofitov Pavel</h2>
 
                     </Zoom>
-                <Zoom>
-                <div className={s.square}>
-                <Square style={Github} href={'https://github.com/PavelNeof'}/>
-                <Square style={Telegram}/>
-                <Square style={Vk}/>
-                <Square style={Codewars}/>
-                </div>
-                </Zoom>
-                    <div className={s.lastLine}><ReactTypingEffect
-                        text={'© All rights reserved'}
-                    /></div>
+                    <Zoom>
+                        <div className={s.square}>
+                            <Square style={Github} href={'https://github.com/PavelNeof'}/>
+                            <Square style={Telegram} href={'https://t.me/PavelllN'}/>
+                            <Square style={Vk} href={'https://vk.com/satalaizer'}/>
+                            <Square style={Codewars} href={'https://www.codewars.com/users/pavelneof'}/>
+                        </div>
+                    </Zoom>
+                    <div className={s.lastLine}>
+                        <Zoom>
+                            <ReactTypingEffect
+                                text={'© All rights reserved'}/>
+                        </Zoom>
+                    </div>
                 </div>
 
             </footer>
