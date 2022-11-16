@@ -16,11 +16,6 @@
 
 }
 
-.burgerNavItems .none{
-    display: none;
-    transform: translate(0, -130px);
-
-}
 
 .burgerNavItems{
     display: flex;
@@ -34,6 +29,10 @@
     padding: 20px;
     transform: translate(0, 0);
     transition: 0.7s;
+}
+
+.close{
+    transform: translate(0, -130px);
 }
 
 .nav .active{

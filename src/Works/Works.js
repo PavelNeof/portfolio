@@ -34,31 +34,44 @@ function Works() {
                 <h2 className={'title'}>Works</h2>
                 <Zoom>
                     <div className={s.works}>
-                        {/*<div className={s.zoom}>*/}
-                        {/*    <Zoom>*/}
+                        <div className={s.zoom}>
+                            <Zoom>
                         <Work style={socialNetwork} title={'Social network'} picture={'picture'}
                               description={'Lorem ipsum dolor sit amet, consectetur adipiscing elit. ' +
                                   'Nam rhoncus fringilla lacus in venenatis. Nam tristique lectus sed fringilla scelerisque. '}
                               href={'https://samurai-way.vercel.app/'}/>
-                        {/*    </Zoom>*/}
-                        {/*</div>*/}
+                            </Zoom>
+                        </div>
+                        <div className={s.zoom}>
+                            <Zoom>
                         <Work style={learnCards} title={'Learn Cards'} picture={'picture'}
                               description={'Lorem ipsum dolor sit amet, consectetur adipiscing elit. ' +
                                   'Nam rhoncus fringilla lacus in venenatis. Nam tristique lectus sed fringilla scelerisque. '}
                               href={'https://friday-project.vercel.app/#/login'}/>
-
+                            </Zoom>
+                        </div>
+                        <div className={s.zoom}>
+                            <Zoom>
                         <Work style={Todolist} title={'Todolist'} picture={'picture'}
                               description={'Lorem ipsum dolor sit amet, consectetur adipiscing elit. ' +
                                   'Nam rhoncus fringilla lacus in venenatis. Nam tristique lectus sed fringilla scelerisque. '}/>
-
+                            </Zoom>
+                        </div>
+                        <div className={s.zoom}>
+                            <Zoom>
                         <Work style={homeworks} title={'Homeworks'} picture={'picture'}
                               description={'Lorem ipsum dolor sit amet, consectetur adipiscing elit. ' +
                                   'Nam rhoncus fringilla lacus in venenatis. Nam tristique lectus sed fringilla scelerisque. '}
                               href={'https://pavelneof.github.io/fromignat/#/junior'}/>
-
+                            </Zoom>
+                        </div>
+                        <div className={s.zoom}>
+                            <Zoom>
                         <Work style={counter} title={'Counter'} picture={'picture'}
                               description={'Lorem ipsum dolor sit amet, consectetur adipiscing elit. ' +
                                   'Nam rhoncus fringilla lacus in venenatis. Nam tristique lectus sed fringilla scelerisque. '}/>
+                            </Zoom>
+                        </div>
                     </div>
                 </Zoom>
             </div>
