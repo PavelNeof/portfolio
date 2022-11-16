@@ -13,3 +13,9 @@
     height: 400px;
     background-color: lightslategrey;
 }
+
+@media screen and (max-width: 600px) {
+    .mainBlock {
+      padding-top: 80px;
+    }
+}

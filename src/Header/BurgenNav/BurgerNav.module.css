@@ -7,13 +7,14 @@
 }
 
 .burgerNavButton{
-    width: 30px;
-    height: 30px;
+    width: 36px;
+    height: 36px;
     background-color: #edb021;
     position: absolute;
     top:24px;
     right: 24px;
-
+    border-radius: 50%;
+    cursor: pointer;
 }
 
 
@@ -24,15 +25,16 @@
     position: absolute;
     top: 0;
     width: 100%;
-    height: 130px;
+    height: 150px;
     align-items: center;
     padding: 20px;
     transform: translate(0, 0);
     transition: 0.7s;
+    margin-top: -10px;
 }
 
 .close{
-    transform: translate(0, -130px);
+    transform: translate(0, -150px);
 }
 
 .nav .active{
@@ -72,6 +74,23 @@
     background-color: #f1d881; /* Цвет подчеркивания при появлении линии*/
     transition: all 0.4s ease-in-out 0s;  /* Время эффекта */
 }
+
+.img{
+    background: no-repeat;
+    transform: scale(0.8);
+    position: absolute;
+    left: -32px;
+    top: -17px;
+}
+
+.burgerNavButton:active {
+    background: linear-gradient(rgb(76,77,82), rgb(56,57,62)) rgb(76,77,82);
+    box-shadow:
+            0 0 1px rgba(0,0,0,.5) inset,
+            0 2px 3px rgba(0,0,0,.5) inset,
+            0 1px 1px rgba(255,255,255,.1);
+}
+
 
 @media screen and (min-width: 600px) {
     .burgerNav {
