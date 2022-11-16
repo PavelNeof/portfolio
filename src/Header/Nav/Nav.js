@@ -13,7 +13,6 @@ function Nav() {
                   offset={-70} duration={500}>Works</Link>
             <Link className={s.linkUnderlineMenu} activeClass={s.active} to={'contacts'} spy={true} smooth={true}
                   offset={-70} duration={500}>Contact</Link>
-
         </nav>
     );
 }
