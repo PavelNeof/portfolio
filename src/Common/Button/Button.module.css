@@ -21,6 +21,7 @@
 
 .borderButton:hover {
     color: #14181e;
+    font-weight: bold;
 }
 
 .borderButton:before, .borderButton:after {

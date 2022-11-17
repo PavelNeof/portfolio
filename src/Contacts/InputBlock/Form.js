@@ -6,13 +6,13 @@ function Form() {
     return (
         <div className={s.inputBlock}>
             <Zoom>
-            <input placeholder={'input'} className={s.input}/>
+            <input placeholder={'your name'} className={s.input}/>
                 </Zoom>
             <Zoom>
-            <input placeholder={'input'} className={s.input}/>
+            <input placeholder={'your email'} className={s.input}/>
             </Zoom>
             <Zoom>
-            <textarea placeholder={'textarea'} className={s.textarea}/>
+            <textarea placeholder={'your message'} className={s.textarea}/>
             </Zoom>
         </div>
     );
