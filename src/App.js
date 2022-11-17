@@ -16,8 +16,10 @@ function App() {
             <Skills/>
             <Works />
            {/* <Distant />*/}
+            <div className={'ContactFooter'}>
             <Contacts />
             <Footer/>
+            </div>
         </div>
     );
 }

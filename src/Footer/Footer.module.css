@@ -16,6 +16,7 @@
 }
 
 .h1 {
+    color: #f9f4e6;
     margin: 0 auto;]
     padding: 25px 0;
     font-weight: 300;
@@ -30,6 +31,7 @@
 }
 
 .lastLine {
+    color:#f9f4e6;
     display: flex;
     justify-content: space-around;
     margin-top: 2%;

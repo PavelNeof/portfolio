@@ -19,7 +19,7 @@ function Skills() {
     return (
         <div id={'skills'} className={s.block}>
             <div className={`${s.container}`}>
-                <h2 className={"title"}>Skills</h2>
+                <h2 className={"titleOnBlack"}>Skills</h2>
                 <div className={s.skills}>
                     <Fade bottom>
                     <Skill title={'JavaScript'} img={js} description={'functional components, class components'}/>

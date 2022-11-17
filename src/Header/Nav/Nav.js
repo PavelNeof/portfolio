@@ -10,7 +10,7 @@ function Nav() {
             <Link className={s.linkUnderlineMenu} activeClass={s.active} to={'skills'} spy={true} smooth={true}
                   offset={-70} duration={500}>Skills</Link>
             <Link className={s.linkUnderlineMenu} activeClass={s.active} to={'works'} spy={true} smooth={true}
-                  offset={-70} duration={500}>Works</Link>
+                  offset={-70} duration={500}>Projects</Link>
             <Link className={s.linkUnderlineMenu} activeClass={s.active} to={'contacts'} spy={true} smooth={true}
                   offset={-70} duration={500}>Contact</Link>
         </nav>

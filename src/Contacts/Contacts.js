@@ -10,7 +10,7 @@ function Contacts() {
         <div className={s.contacts} id={'contacts'}>
 
             <form className={s.container}>
-                <h3 className={"title"}>Contacts</h3>
+                <h3 className={"titleOnBlack"}>Contacts</h3>
                    <Form/>
                 <Zoom>
                 <Button title={'Отправить'}/>

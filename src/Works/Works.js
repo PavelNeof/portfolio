@@ -31,7 +31,7 @@ function Works() {
 
         <div id={'works'} className={s.block}>
             <div className={`${sContainer.container} ${s.container}`}>
-                <h2 className={'title'}>Works</h2>
+                <h2 className={'title'}>Projects</h2>
                 <Zoom>
                     <div className={s.works}>
                         <div className={s.zoom}>
@@ -69,7 +69,8 @@ function Works() {
                             <Zoom>
                         <Work style={counter} title={'Counter'} picture={'picture'}
                               description={'Lorem ipsum dolor sit amet, consectetur adipiscing elit. ' +
-                                  'Nam rhoncus fringilla lacus in venenatis. Nam tristique lectus sed fringilla scelerisque. '}/>
+                                  'Nam rhoncus fringilla lacus in venenatis. Nam tristique lectus sed fringilla scelerisque. '}
+                              href={'https://counter-brown-zeta.vercel.app/'}/>
                             </Zoom>
                         </div>
                     </div>

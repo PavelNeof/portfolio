@@ -13,31 +13,33 @@
 }
 
 .back {
-    height: 100px;
-    width: 100px;
+    height: 80px;
+    width: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 95%;
-    box-shadow: 0 0 15px 15px #dcdcdc inset;
+
 }
+
 .back:hover {
-    background-color: #f9f4e6;
-    box-shadow: 0 0 15px 15px #dcdcdc inset;
-    height: 100px;
-    width: 100px;
+    box-shadow: 0 0 12px 12px #dcdcdc inset;
+    height: 80px;
+    width: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
+    opacity: .9;
     border-radius: 95%;
     transition: all 0.4s ease-in-out;
 }
 
-@media (max-width:  700px) {
+@media (max-width: 700px) {
     .back {
         height: 80px;
         width: 80px;
     }
+
     .back:hover {
         box-shadow: 0 0 10px 10px #dcdcdc inset;
         height: 80px;

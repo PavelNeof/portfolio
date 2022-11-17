@@ -11,7 +11,7 @@
     position: relative;
     color: whitesmoke;
     border: 1px solid rgba(73, 73, 73, 0.4);
-    background: #1c222a;
+    background: #14181e;
     font-weight: 300;
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
@@ -20,7 +20,7 @@
 }
 
 .borderButton:hover {
-    color: #1c222a;
+    color: #14181e;
 }
 
 .borderButton:before, .borderButton:after {
@@ -35,15 +35,15 @@
 .borderButton:before {
     bottom: 0;
     left: 0;
-    border-left: 1px solid #1c222a;
-    border-top: 1px solid #1c222a;
+    border-left: 1px solid #14181e;
+    border-top: 1px solid #14181e;
     transition: 0s ease opacity .8s, .2s ease width .4s, .2s ease height .6s;
 }
 .borderButton:after {
     top: 0;
     right: 0;
-    border-right: 1px solid #1c222a;
-    border-bottom: 1px solid #1c222a;
+    border-right: 1px solid #14181e;
+    border-bottom: 1px solid #14181e;
     transition: 0s ease opacity .4s, .2s ease width, .2s ease height .2s;
 }
 .borderButton:hover:before,
