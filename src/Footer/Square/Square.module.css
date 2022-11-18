@@ -3,6 +3,7 @@
     width: 80px;
     display: flex;
     justify-content: center;
+
 }
 
 .img {
@@ -10,6 +11,7 @@
     background-position: center;
     width: 50px;
     height: 50px;
+
 }
 
 .back {
@@ -19,6 +21,8 @@
     justify-content: center;
     align-items: center;
     border-radius: 95%;
+    background-color: white;
+    opacity: .3;
 }
 
 .back:hover {

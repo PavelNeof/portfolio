@@ -69,7 +69,7 @@ function Works() {
                             <Zoom>
                         <Work style={counter} title={'Counter'} picture={'picture'}
                               description={'Lorem ipsum dolor sit amet, consectetur adipiscing elit. ' +
-                                  'Nam rhoncus fringilla lacus in venenatis. Nam tristique lectus sed fringilla scelerisque. '}
+                                  'Эта работа показывает наличие навыков работы с localStorage'}
                               href={'https://counter-brown-zeta.vercel.app/'}/>
                             </Zoom>
                         </div>

@@ -16,13 +16,13 @@ function Contacts() {
         <div className={s.contacts} id={'contacts'}>
 
 
-            <form className={s.container} ref={form} onSubmit={sendEmail}>
+            <div className={s.container}>
                 <h3 className={"titleOnBlack"}>Contacts</h3>
                    <Form/>
                 <Zoom>
                 <Button title={'Отправить'}/>
                 </Zoom>
-            </form>
+            </div>
 
             </div>
     );
