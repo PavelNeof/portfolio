@@ -3,8 +3,8 @@ import sContainer from "../Common/Styles/Container.module.css";
 import s from "./Works.module.css";
 import Work from "./Work/Work";
 import SocialNetworkImage from "./../assets/image/works/soc.jpg"
-import LearnCards from "./../assets/image/works/soc.jpg"
-import TodoImage from "./../assets/image/to-do-list.jpg"
+import LearnCards from "./../assets/image/works/learn.jpg"
+import TodoImage from "./../assets/image/works/todolist.jpg"
 import CounterImage from "./../assets/image/works/counter.jpg"
 import Homeworks from "./../assets/image/works/homeworks.jpg"
 import Zoom from 'react-reveal/Zoom';
