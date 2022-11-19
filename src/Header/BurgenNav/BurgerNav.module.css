@@ -11,10 +11,14 @@
     height: 36px;
     background-color: #edb021;
     position: absolute;
-    top:24px;
+    top:20px;
     right: 24px;
     border-radius: 50%;
     cursor: pointer;
+    transition: 0.7s;
+}
+.closeButton{
+    top:110px;
 }
 
 

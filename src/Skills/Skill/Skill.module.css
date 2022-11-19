@@ -63,7 +63,6 @@ box:hover {
     display: block;
     height: 300px;
     width: 300px;
-
 }
 
 .inBox{
@@ -94,7 +93,8 @@ box:hover {
 
     .hoveredBox {
         left: -20px;
-        top: 10px;
+        top: -10px;
+        z-index: 50;
     }
 
     .skill {
@@ -108,7 +108,6 @@ box:hover {
     }
 
     .box {
-        z-index: 10;
         width: 110%;
         height: 110%;
         border-radius: 10px;

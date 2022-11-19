@@ -3,14 +3,14 @@ import s from './BurgerNav.module.css';
 import {Link, animateScroll as scroll} from "react-scroll";
 import menu from "./../../assets/image/menu.png"
 
-function BurgerNav() {
+function BurgerNav(props) {
 
-    const [isOpen, setIsOpen] = useState(false)
-
-    const onBurgerButtonClick = () => {
-        setIsOpen(!isOpen)
-        console.log(isOpen)
-    }
+    // const [isOpen, setIsOpen] = useState(false)
+    //
+    // const onBurgerButtonClick = () => {
+    //     setIsOpen(!isOpen)
+    //     console.log(isOpen)
+    // }
 
     const Menu = {
         backgroundImage: `url(${menu})`,
@@ -18,7 +18,7 @@ function BurgerNav() {
 
     return (
         <nav className={s.burgerNav}>
-            <div className={isOpen ? s.burgerNavItems : `${s.burgerNavItems} ${s.close}`}>
+            <div className={props.isOpen ? s.burgerNavItems : `${s.burgerNavItems} ${s.close}`}>
                 <Link className={s.linkUnderlineMenu} activeClass={s.active} to={'main'} spy={true} smooth={true}
                       offset={-70} duration={500}>Main</Link>
                 <Link className={s.linkUnderlineMenu} activeClass={s.active} to={'skills'} spy={true} smooth={true}
@@ -28,7 +28,8 @@ function BurgerNav() {
                 <Link className={s.linkUnderlineMenu} activeClass={s.active} to={'contacts'} spy={true} smooth={true}
                       offset={-70} duration={500}>Contact</Link>
             </div>
-            <div className={s.burgerNavButton} onClick={onBurgerButtonClick}>
+            {/*<div className={s.burgerNavButton} onClick={props.onBurgerButtonClick}>*/}
+            <div className={props.isOpen ? s.burgerNavButton: `${s.burgerNavButton} ${s.closeButton}`} onClick={props.onBurgerButtonClick}>
                 <svg className={s.img} style={Menu}></svg>
             </div>
         </nav>
