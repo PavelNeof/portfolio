@@ -66,6 +66,15 @@
 
 }
 
+.label{
+    color:#dcdcdc;
+}
+
+.button{
+    display: flex;
+    justify-content: space-around
+}
+
 .textarea:hover {
     border: 1px solid #dcdcdc;
     background-color: #4b4643;

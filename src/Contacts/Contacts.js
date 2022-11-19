@@ -19,9 +19,9 @@ function Contacts() {
             <div className={s.container}>
                 <h3 className={"titleOnBlack"}>Contacts</h3>
                    <Form/>
-                <Zoom>
-                <Button title={'Отправить'}/>
-                </Zoom>
+                {/*<Zoom>*/}
+                {/*<Button title={'Отправить'}/>*/}
+                {/*</Zoom>*/}
             </div>
 
             </div>
