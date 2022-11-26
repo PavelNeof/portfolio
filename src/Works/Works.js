@@ -37,38 +37,43 @@ function Works() {
                         <div className={s.zoom}>
                             <Zoom>
                                 <Work style={socialNetwork} title={'Social network'} picture={'picture'}
-                                      description={'Lorem ipsum dolor sit amet, consectetur adipiscing elit. ' +
-                                          'Nam rhoncus fringilla lacus in venenatis. Nam tristique lectus sed fringilla scelerisque. '}
+                                      //description={'Lorem ipsum dolor sit amet, consectetur adipiscing elit. ' +
+                                      //'Nam rhoncus fringilla lacus in venenatis. Nam tristique lectus sed fringilla scelerisque. '}
+                                      description={'The social network is made with live users, with the ability to register on the server, follow / unfollow other users and edit self profile.'}
                                       href={'https://pavelneof.github.io/samurai-way/'}/>
                             </Zoom>
                         </div>
                         <div className={s.zoom}>
                             <Zoom>
                                 <Work style={learnCards} title={'Learn Cards'} picture={'picture'}
-                                      description={'Lorem ipsum dolor sit amet, consectetur adipiscing elit. ' +
-                                          'Nam rhoncus fringilla lacus in venenatis. Nam tristique lectus sed fringilla scelerisque. '}
+                                    //description={'Lorem ipsum dolor sit amet, consectetur adipiscing elit. ' +
+                                    //'Nam rhoncus fringilla lacus in venenatis. Nam tristique lectus sed fringilla scelerisque. '}
+                                      description={'A project created to create decks of cards with questions and learn from them.'}
                                       href={'https://friday-project.vercel.app/#/login'}/>
                             </Zoom>
                         </div>
                         <div className={s.zoom}>
                             <Zoom>
                                 <Work style={Todolist} title={'Todolist'} picture={'picture'}
-                                      description={'Lorem ipsum dolor sit amet, consectetur adipiscing elit. ' +
-                                          'Nam rhoncus fringilla lacus in venenatis. Nam tristique lectus sed fringilla scelerisque. '}
-                                href={'https://pavelneof.github.io/todo16v2/'}/>
+                                      //description={'Lorem ipsum dolor sit amet, consectetur adipiscing elit. ' +
+                                      //'Nam rhoncus fringilla lacus in venenatis. Nam tristique lectus sed fringilla scelerisque. '}
+                                      description={'Creation of lists and tasks. The ability to track, sort and delete them by interacting with the server.'}
+                                      href={'https://pavelneof.github.io/todo16v2/'}/>
                             </Zoom>
                         </div>
                         <div className={s.zoom}>
                             <Zoom>
                                 <Work style={homeworks} title={'Homeworks'} picture={'picture'}
-                                      description={'Эта работа направлена на демонстрацию наличия базовых навыков работы в React '}
+                                    //description={'Эта работа направлена на демонстрацию наличия базовых навыков работы в React '}
+                                      description={'This work is aimed at demonstrating the basic skills of working in React '}
                                       href={'https://pavelneof.github.io/fromignat/#/junior'}/>
                             </Zoom>
                         </div>
                         <div className={s.zoom}>
                             <Zoom>
                                 <Work style={counter} title={'Counter'} picture={'picture'}
-                                      description={'Эта работа показывает наличие навыков работы с localStorage'}
+                                    //description={'Эта работа показывает наличие навыков работы с localStorage'}
+                                      description={'This work shows the presence of skills in working with localStorage'}
                                       href={'https://counter-brown-zeta.vercel.app/'}/>
                             </Zoom>
                         </div>
