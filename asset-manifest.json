@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.faaa0de1.css",
-    "main.js": "/portfolio/static/js/main.94b40c05.js",
+    "main.css": "/portfolio/static/css/main.99302938.css",
+    "main.js": "/portfolio/static/js/main.ac209f80.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/back-black2.jpg": "/portfolio/static/media/back-black2.9f0666976911d38c38a4.jpg",
     "static/media/back-white2.jpg": "/portfolio/static/media/back-white2.e9c4acaccb940433f326.jpg",
+    "static/media/soc.jpg": "/portfolio/static/media/soc.d3910c3e0adeb72f397b.jpg",
     "static/media/todolist.jpg": "/portfolio/static/media/todolist.d5f944148012bd913882.jpg",
     "static/media/homeworks.jpg": "/portfolio/static/media/homeworks.a8b1e0a8e964b7c0874b.jpg",
-    "static/media/soc.jpg": "/portfolio/static/media/soc.ea9cb6d29454dd368f39.jpg",
     "static/media/counter.jpg": "/portfolio/static/media/counter.6cea069c7b450b966274.jpg",
     "static/media/learn.jpg": "/portfolio/static/media/learn.04a8054146a2e6c0303f.jpg",
     "static/media/telegram.png": "/portfolio/static/media/telegram.b555086d3953f330a7a3.png",
@@ -15,12 +15,12 @@
     "static/media/codewars.png": "/portfolio/static/media/codewars.23ba8b3882600a94a0b6.png",
     "static/media/github.png": "/portfolio/static/media/github.3ff523db9257950b999c.png",
     "index.html": "/portfolio/index.html",
-    "main.faaa0de1.css.map": "/portfolio/static/css/main.faaa0de1.css.map",
-    "main.94b40c05.js.map": "/portfolio/static/js/main.94b40c05.js.map",
+    "main.99302938.css.map": "/portfolio/static/css/main.99302938.css.map",
+    "main.ac209f80.js.map": "/portfolio/static/js/main.ac209f80.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.faaa0de1.css",
-    "static/js/main.94b40c05.js"
+    "static/css/main.99302938.css",
+    "static/js/main.ac209f80.js"
   ]
 }
