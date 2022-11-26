@@ -28,22 +28,28 @@ function Skills() {
                     <Skill title={'TypeScript'} img={ts} description={'functional components, class components'} />
 
 
-                    <Skill title={'React'} img={react} description={'Redux, Route, Formik'}/>
+                    {/*<Skill title={'React'} img={react} description={'Redux, Route, Formik'}/>*/}
+                    <Skill title={'React'} img={react} description={'Create SPA application with Redux, React-router-dom, Formik, and other libraries.'}/>
 
 
-                    <Skill title={'Redux'} img={redux} description={'Redux-Thunk, reducers'}/>
+                    {/*<Skill title={'Redux'} img={redux} description={'Redux-Thunk, reducers'}/>*/}
+                    <Skill title={'Redux'} img={redux} description={'Interaction with application data using redux (redux-thunk, reducer, etc.)'}/>
 
 
-                    <Skill title={'Git'} img={git} description={'GitHab, work in a team, git merge'}/>
+                    {/*<Skill title={'Git'} img={git} description={'GitHab, work in a team, git merge'}/>*/}
+                    <Skill title={'Git'} img={git} description={'Teamwork on Github, merge projects and deploy on gh.pages'}/>
 
 
-                    <Skill title={'CSS'} img={css} description={'adaptive layout, SASS, BEM, Tailwind CSS, Material UI'}/>
+                    {/*<Skill title={'CSS'} img={css} description={'adaptive layout, SASS, BEM, Tailwind CSS, Material UI'}/>*/}
+                    <Skill title={'CSS'} img={css} description={'Creating adaptive layout with CSS and SASS. Understanding BEM. Working with Tailwind CSS, MaterialUI libraries'}/>
 
 
-                    <Skill title={'Storybook'} img={storybook} description={'Create component'}/>
+                    {/*<Skill title={'Storybook'} img={storybook} description={'Create component'}/>*/}
+                    <Skill title={'Storybook'} img={storybook} description={'Creating components in the storybook library'}/>
 
 
-                    <Skill title={'Rest Api'} img={restapi} description={'Axios, Postman'}/>
+                    {/*<Skill title={'Rest Api'} img={restapi} description={'Axios, Postman'}/>*/}
+                    <Skill title={'Rest Api'} img={restapi} description={'requests to the server using the axios library. Testing requests in Postman'}/>
 
 
                     <Skill title={'Unit testing'} img={unitest} description={'Unit testing component'}/>

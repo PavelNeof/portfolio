@@ -19,9 +19,9 @@ function Skill(props) {
             <div className={`${s.box} ${show ? s.hoveredBox : s.unhoveredBox}`}>
                 <div className={s.inBox} onClick={show ? onMouseLeave : onMouseEnter}>
                 <h3 className={s.title}>{props.title}</h3>
-                <p className={s.description}>
+                <div className={s.description}>
                     {props.description}
-                </p>
+                </div>
                 </div>
             </div>
         </div>

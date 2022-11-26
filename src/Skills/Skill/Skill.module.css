@@ -79,6 +79,7 @@ box:hover {
 }
 
 .description {
+    padding: 10px;
     font-weight: 400;
     font-size: 13px;
     color:#fff;
@@ -109,8 +110,11 @@ box:hover {
 
     .box {
         width: 110%;
-        height: 110%;
+        min-height: 110%;
         border-radius: 10px;
+    }
 
+    .description {
+        padding: 0;
     }
 }
