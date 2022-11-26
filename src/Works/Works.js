@@ -30,7 +30,7 @@ function Works() {
     return (
 
         <div id={'works'} className={s.block}>
-            <div className={`${sContainer.container} ${s.container}`}>
+            <div className={s.container}>
                 <h2 className={'title'}>Projects</h2>
                 <Zoom>
                     <div className={s.works}>
