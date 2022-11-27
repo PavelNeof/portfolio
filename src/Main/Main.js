@@ -9,13 +9,16 @@ function Main() {
         <div id={'main'} className={s.mainBlock}>
             <div className={sContainer.container}>
                 <Zoom>
-                <div className={s.text}>
-                    <span>Hi, bro</span>
-                    <h1>I'm Pavel Neofitov</h1>
-                    <p>Frontend Developer</p>
-                    <a href={cv} download="CV download">CV download</a>
-                </div>
-                <div className={s.photo}></div>
+                    <div className={s.text}>
+                        <h1>I'm Pavel Neofitov</h1>
+                        <p>Frontend Developer</p>
+
+                        <a className={s.link} href={cv} download="CV download">
+                            <div className={s.linkBox}> CV download</div>
+                        </a>
+
+                    </div>
+                    <div className={s.photo}></div>
                 </Zoom>
             </div>
 
