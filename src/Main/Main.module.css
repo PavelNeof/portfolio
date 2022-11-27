@@ -1,6 +1,7 @@
 .mainBlock {
     height: 100vh;
     background-image: url("../assets/image/back-white2.jpg");
+    margin-top: 80px;
 }
 
 .text {
@@ -17,5 +18,11 @@
 @media screen and (max-width: 600px) {
     .mainBlock {
       padding-top: 80px;
+    }
+}
+
+@media (max-width: 700px) {
+    .mainBlock {
+        margin-top: 70px;
     }
 }
