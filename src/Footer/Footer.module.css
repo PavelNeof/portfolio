@@ -37,3 +37,8 @@
     margin-top: 2%;
 }
 
+@media (min-height: 590px) {
+    .footer {
+        height: 40vh;
+    }
+}

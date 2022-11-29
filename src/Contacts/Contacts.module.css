@@ -19,3 +19,9 @@
         flex-wrap: nowrap
     }
 }
+
+@media (min-height: 590px) {
+    .contacts {
+        height: 85vh;
+    }
+}
