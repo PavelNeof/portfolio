@@ -9,18 +9,22 @@ function Main() {
         <div id={'main'} className={s.mainBlock}>
             <div className={sContainer.container}>
                 <Zoom>
-                    <div className={s.text}>
-                        <div className={s.blockLeft}>
-                            <div>
-                                <h1>I'm Pavel Neofitov</h1>
-                                <p>Frontend Developer</p>
+                    <div className={s.flexBlock}>
+                        <div className={s.text}>
+                            <div className={s.blockLeft}>
+                                <div>
+                                    <h1>I'm Pavel Neofitov</h1>
+                                    <p>Frontend Developer</p>
+                                </div>
+                                <div className={s.button}>
+                                    <a className={s.link} href={cv} download="CV download">
+                                        <div className={s.linkBox}> CV download</div>
+                                    </a>
+                                </div>
                             </div>
-                            <a className={s.link} href={cv} download="CV download">
-                                <div className={s.linkBox}> CV download</div>
-                            </a>
                         </div>
+                        <div className={s.photo}></div>
                     </div>
-                    <div className={s.photo}></div>
                 </Zoom>
             </div>
 
