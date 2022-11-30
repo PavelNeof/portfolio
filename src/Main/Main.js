@@ -2,12 +2,13 @@ import React from "react";
 import s from "./Main.module.css";
 import sContainer from "./../Common/Styles/Container.module.css"
 import Zoom from 'react-reveal/Zoom';
-import cv from "../Common/CV/CV.txt";
+import cv from "../Common/CV/Neofitov Pavel Frontend Developer CV.pdf";
 
 function Main() {
     return (
         <div id={'main'} className={s.mainBlock}>
-            <div className={sContainer.container}>
+            {/*<div className={sContainer.container}>*/}
+            <div className={s.container}>
                 <Zoom>
                     <div className={s.flexBlock}>
                         <div className={s.text}>
@@ -17,7 +18,7 @@ function Main() {
                                     <p>Frontend Developer</p>
                                 </div>
                                 <div className={s.button}>
-                                    <a className={s.link} href={cv} download="CV download">
+                                    <a className={s.link} href={cv} download="Neofitov Pavel Frontend Developer CV">
                                         <div className={s.linkBox}> CV download</div>
                                     </a>
                                 </div>
