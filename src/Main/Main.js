@@ -7,7 +7,6 @@ import cv from "../Common/CV/Neofitov Pavel Frontend Developer CV.pdf";
 function Main() {
     return (
         <div id={'main'} className={s.mainBlock}>
-            {/*<div className={sContainer.container}>*/}
             <div className={s.container}>
                 <Zoom>
                     <div className={s.flexBlock}>
