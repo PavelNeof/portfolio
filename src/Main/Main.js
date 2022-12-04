@@ -1,7 +1,7 @@
 import React from "react";
 import s from "./Main.module.css";
 import Zoom from 'react-reveal/Zoom';
-import cv from "../Common/CV/Neofitov Pavel Frontend Developer CV.pdf";
+import cv from "../Common/CV/Neofitov Pavel Frontend Developer CV new.pdf";
 
 function Main() {
     return (
