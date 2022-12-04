@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.6efc1cee.css",
-    "main.js": "/portfolio/static/js/main.105bfdce.js",
+    "main.css": "/portfolio/static/css/main.136e0f70.css",
+    "main.js": "/portfolio/static/js/main.8ce8cc48.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/Neofitov Pavel Frontend Developer CV.pdf": "/portfolio/static/media/Neofitov Pavel Frontend Developer CV.43ea7127c1e7ff65e56e.pdf",
     "static/media/back-black2.jpg": "/portfolio/static/media/back-black2.9f0666976911d38c38a4.jpg",
@@ -17,12 +17,12 @@
     "static/media/codewars.png": "/portfolio/static/media/codewars.23ba8b3882600a94a0b6.png",
     "static/media/github.png": "/portfolio/static/media/github.3ff523db9257950b999c.png",
     "index.html": "/portfolio/index.html",
-    "main.6efc1cee.css.map": "/portfolio/static/css/main.6efc1cee.css.map",
-    "main.105bfdce.js.map": "/portfolio/static/js/main.105bfdce.js.map",
+    "main.136e0f70.css.map": "/portfolio/static/css/main.136e0f70.css.map",
+    "main.8ce8cc48.js.map": "/portfolio/static/js/main.8ce8cc48.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6efc1cee.css",
-    "static/js/main.105bfdce.js"
+    "static/css/main.136e0f70.css",
+    "static/js/main.8ce8cc48.js"
   ]
 }
