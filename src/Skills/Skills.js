@@ -22,10 +22,10 @@ function Skills() {
                 <h2 className={"titleOnBlack"}>Skills</h2>
                 <div className={s.skills}>
                     <Fade bottom>
-                    <Skill title={'JavaScript'} img={js} description={'functional components, class components'}/>
+                    <Skill title={'JavaScript'} img={js} description={'writing JavaScript code'}/>
 
 
-                    <Skill title={'TypeScript'} img={ts} description={'functional components, class components'} />
+                    <Skill title={'TypeScript'} img={ts} description={'writing TypeScript code'} />
 
 
                     {/*<Skill title={'React'} img={react} description={'Redux, Route, Formik'}/>*/}

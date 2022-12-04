@@ -12,8 +12,8 @@ function Main() {
                         <div className={s.text}>
                             <div className={s.blockLeft}>
                                 <div>
-                                    <h1>I'm Pavel Neofitov</h1>
-                                    <p>Frontend Developer</p>
+                                    <h1 className={s.h1}>I'm Pavel Neofitov</h1>
+                                    <p className={s.p}>Frontend Developer</p>
                                 </div>
                                 <div className={s.button}>
                                     <a className={s.link} href={cv} download="Neofitov Pavel Frontend Developer CV">
