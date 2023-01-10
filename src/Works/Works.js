@@ -6,7 +6,7 @@ import SocialNetworkImage from "./../assets/image/works/soc.jpg"
 import LearnCards from "./../assets/image/works/learn.jpg"
 import TodoImage from "./../assets/image/works/todolist.jpg"
 import CounterImage from "./../assets/image/works/counter.jpg"
-import Homeworks from "./../assets/image/works/homeworks.jpg"
+import Homeworks from "./../assets/image/works/movie-base.jpg"
 import Zoom from 'react-reveal/Zoom';
 
 
@@ -62,11 +62,17 @@ function Works() {
                             </Zoom>
                         </div>
                         <div className={s.zoom}>
+                            {/*<Zoom>*/}
+                            {/*    <Work style={homeworks} title={'Homeworks'} picture={'picture'}*/}
+                            {/*        //description={'Эта работа направлена на демонстрацию наличия базовых навыков работы в React '}*/}
+                            {/*          description={'This work is aimed at demonstrating the basic skills of working in React '}*/}
+                            {/*          href={'https://pavelneof.github.io/fromignat/#/junior'}/>*/}
+                            {/*</Zoom>*/}
                             <Zoom>
-                                <Work style={homeworks} title={'Homeworks'} picture={'picture'}
+                                <Work style={homeworks} title={'Movie base'} picture={'picture'}
                                     //description={'Эта работа направлена на демонстрацию наличия базовых навыков работы в React '}
-                                      description={'This work is aimed at demonstrating the basic skills of working in React '}
-                                      href={'https://pavelneof.github.io/fromignat/#/junior'}/>
+                                      description={'An imdb movie base made with react and react-toolkit. '}
+                                      href={'https://pavelneof.github.io/movies-base/'}/>
                             </Zoom>
                         </div>
                         <div className={s.zoom}>
